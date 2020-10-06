@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>agbetrayal-parent</artifactId>
+        <groupId>agbetrayal-parent</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../agbetrayal-parent/pom.xml</relativePath>
+    </parent>
+
+    <!--<groupId>agbetrayal-parent</groupId>-->
+    <artifactId>agbetrayal-core</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>agbetrayal-core-jpa</module>
+        <module>agbetrayal-core-utils</module>
+        <module>agbetrayal-core-elasticsearch</module>
+        <module>agbetrayal-core-redis</module>
+        <module>agbetrayal-core-cache</module>
+        <module>agbetrayal-core-service</module>
+        <module>agbetrayal-core-page</module>
+        <module>agbetrayal-core-web</module>
+        <module>agbetrayal-core-httpclient</module>
+        <module>agbetrayal-core-authentication-api</module>
+        <module>agbetrayal-core-authentication-security</module>
+        <module>agbetrayal-core-i18n</module>
+        <module>agbetrayal-core-authentication-alipay</module>
+        <module>agbetrayal-core-authentication-weixin</module>
+        <module>agbetrayal-core-authentication-security-oauth2</module>
+        <module>agbetrayal-core-authentication-security-oauth2-server</module>
+        <module>agbetrayal-core-authentication-security-oauth2-client</module>
+        <module>agbetrayal-core-validator</module>
+    </modules>
+
+    <dependencies></dependencies>
+    
+</project>
